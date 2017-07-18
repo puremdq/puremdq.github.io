@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>跳转中</title>
+</head>
+<body>
+<p>正在跳转请稍候。。。</p>
+</body>
+<script>
+    ( function init() {
+        var url = document.URL;
+        var toUrl='http://www.beagoodman.cn';
+        if(url.indexOf("ikoub.com")>=0){
+            toUrl='puremdq.github.io/ikoub'
+        }else if(url.indexOf("hantiaolang.com")>=0){
+            toUrl='puremdq.github.io/hantiaolang'
+        }
+        window.location.href=toUrl;
+
+    })();
+</script>
+</html>
